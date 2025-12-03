@@ -1,0 +1,24 @@
+.top-companies {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.company-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.company-card p {
+  margin-top: 10px;
+  font-weight: 500;
+}

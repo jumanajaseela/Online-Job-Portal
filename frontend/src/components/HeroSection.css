@@ -1,0 +1,48 @@
+.hero {
+  background: linear-gradient(135deg, #165aa3, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 181px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+.cta-btn {
+  background: white;
+  color: #007bff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background: #f1f1f1;
+}
+
+
+.get-started-btn {
+  background-color: #363b8d;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.get-started-btn:hover {
+  background-color: #19489f;
+  transform: scale(1.05);
+}

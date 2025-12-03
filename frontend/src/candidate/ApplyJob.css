@@ -1,0 +1,27 @@
+.apply-job {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.apply-job form {
+  display: flex;
+  flex-direction: column;
+}
+
+.apply-job input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.apply-job button {
+  background-color:#19489f;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}

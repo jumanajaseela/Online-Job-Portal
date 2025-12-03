@@ -1,0 +1,76 @@
+/* Container */
+.applications {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Title */
+.applications h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #2b2b2b;
+  margin-bottom: 25px;
+}
+
+/* Table styling */
+.applications table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Header row */
+.applications th {
+  background-color: #1462b6;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 14px 10px;
+  font-size: 15px;
+}
+
+/* Table rows */
+.applications td {
+  padding: 14px 10px;
+  font-size: 15px;
+  color: #333;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect on rows */
+.applications tbody tr:hover {
+  background-color: #f2f8ff;
+  transform: scale(1.01);
+  transition: all 0.2s ease;
+}
+
+/* Resume link styling */
+.applications a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.applications a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+/* Empty state */
+.applications .empty {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 16px;
+}

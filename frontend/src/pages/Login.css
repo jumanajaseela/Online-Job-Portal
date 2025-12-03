@@ -1,0 +1,79 @@
+/* Center the login form nicely */
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-container h2 {
+  color: #004080;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Input boxes */
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.login-container input:focus {
+  border-color: #004080;
+}
+
+/* Role selection radio buttons */
+.role-select {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.role-select label {
+  font-size: 16px;
+  color: #333;
+}
+
+.role-select input[type="radio"] {
+  margin-right: 6px;
+  accent-color: #004080;
+}
+
+/* Login button */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #0059b3;
+}
+
+/* Responsive for mobile screens */
+@media (max-width: 480px) {
+  .login-container {
+    margin: 50px 20px;
+    padding: 20px;
+  }
+  .login-container h2 {
+    font-size: 24px;
+  }
+}
