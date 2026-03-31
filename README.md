@@ -15,8 +15,8 @@ This project includes user authentication, CRUD operations, REST APIs, and moder
 * Axios for API calls
 
 * Form validation
-**
-🖥 Backend (Node + Express)**
+
+**🖥 Backend (Node + Express)**
 
 * RESTful APIs
 
